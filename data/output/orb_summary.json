@@ -1,0 +1,14 @@
+{
+  "n_reviews": 403,
+  "classification": {
+    "Low_Risk": 264,
+    "Moderate_Risk": 74,
+    "High_Risk": 65
+  },
+  "excess_significance": {
+    "mean": 0.47,
+    "pct_excess_gt_1": 22.6,
+    "pct_excess_gt_2": 11.9
+  },
+  "elapsed_seconds": 4.8
+}
