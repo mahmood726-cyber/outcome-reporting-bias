@@ -153,7 +153,7 @@ Approximately one in six Cochrane meta-analyses (16.1%) exhibits statistical ind
 
 ## Data availability statement
 
-All data and analysis code are available at [REPOSITORY_URL_PLACEHOLDER]. The Pairwise70 source dataset is available at [PAIRWISE70_DOI_PLACEHOLDER].
+All data and analysis code are available at https://github.com/mahmood726-cyber/outcome-reporting-bias. The Pairwise70 source dataset is available at [PAIRWISE70_DOI_PLACEHOLDER].
 
 ## Funding
 
