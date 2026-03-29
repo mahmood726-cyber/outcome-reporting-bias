@@ -153,15 +153,15 @@ Approximately one in six Cochrane meta-analyses (16.1%) exhibits statistical ind
 
 ## Data availability statement
 
-All data and analysis code are available at https://github.com/mahmood726-cyber/outcome-reporting-bias. The Pairwise70 source dataset is available at [PAIRWISE70_DOI_PLACEHOLDER].
+All data and analysis code are available at https://github.com/mahmood726-cyber/outcome-reporting-bias. The Pairwise70 source dataset is currently available at https://github.com/mahmood789/Pairwise70; a public archive DOI can be added when a Zenodo record is minted.
 
 ## Funding
 
-[FUNDING_PLACEHOLDER or "None."]
+No funding information is recorded in the current project files; update this section at submission if applicable.
 
 ## Competing interests
 
-The authors declare no competing interests.
+The author declares no competing interests.
 
 ## Ethics statement
 
@@ -179,7 +179,7 @@ This study used only publicly available aggregate data from published Cochrane s
 6. Ioannidis JPA, Trikalinos TA. An exploratory test for an excess of significant findings. Clin Trials. 2007;4(3):245-253.
 7. Higgins JPT, Thompson SG. Quantifying heterogeneity in a meta-analysis. Stat Med. 2002;21(11):1539-1558.
 8. Sterne JAC, Sutton AJ, Ioannidis JPA, et al. Recommendations for examining and interpreting funnel plot asymmetry in meta-analyses of randomised controlled trials. BMJ. 2011;343:d4002.
-9. [PAIRWISE70_REFERENCE_PLACEHOLDER -- Author(s). Pairwise70: A curated dataset of 501 Cochrane pairwise meta-analyses. Year.]
+9. Arai M. Pairwise70: Comprehensive Cochrane Pairwise Meta-Analysis Dataset Collection. R package version 2.0.0. GitHub; 2026. Available from: https://github.com/mahmood789/Pairwise70.
 10. Ioannidis JPA. Excess significance bias in the literature on brain volume abnormalities. Arch Gen Psychiatry. 2011;68(8):773-780.
 11. Tsilidis KK, Panagiotou OA, Sena ES, et al. Evaluation of excess significance bias in animal studies of neurological diseases. PLoS Biol. 2013;11(7):e1001609.
 12. Williamson PR, Gamble C, Altman DG, Hutton JL. Outcome selection bias in meta-analysis. Stat Methods Med Res. 2005;14(5):515-524.

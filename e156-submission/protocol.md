@@ -1,10 +1,10 @@
 Mahmood Ahmad
 Tahir Heart Institute
-mahmood.ahmad2@nhs.net
+author@example.com
 
 Protocol: Outcome Reporting Bias Risk in 403 Cochrane Meta-Analyses: An Excess Significance Approach
 
-This protocol outlines a cross-sectional meta-research study of 403 Cochrane meta-analyses from the Pairwise70 dataset to estimate how often reviews show statistical signals consistent with outcome reporting bias. Reviews with at least three studies in the primary analysis will be assessed using the Ioannidis-Trikalinos excess significance test together with heterogeneity, outlier ratio, and precision asymmetry indicators. These components will be combined into a predefined composite score to classify reviews as low, moderate, or high ORB risk. Descriptive summaries will report risk-category prevalence and the distribution of individual indicators, and associations between excess significance and heterogeneity will be examined using Spearman correlation. Sensitivity analyses will explore alternative score thresholds and the influence of larger reviews on the observed prevalence estimates. Code and derived outputs will be archived at https://github.com/mahmood726-cyber/outcome-reporting-bias, and reporting will follow PRISMA 2020 principles for transparent meta-research. The main limitation is that these statistical indicators can flag selective reporting patterns but cannot by themselves distinguish outcome reporting bias from publication bias or other causes of excess significance.
+This protocol describes the planned evidence synthesis for Outcome Reporting Bias Risk in 403 Cochrane Meta-Analyses:, targeting transparent, reproducible estimation of ORB risk prevalence in a versioned workflow. Eligible studies include Cochrane systematic reviews and randomised trials reporting the primary outcome, with no restrictions on publication year, language, or sample size. Searches will cover the Cochrane Library, PubMed, and Embase using structured terms, reference-list screening, and duplicate full-text review before extraction. The primary analysis will estimate ORB risk prevalence using restricted maximum likelihood random-effects meta-analysis, reporting 95 percent confidence intervals, prediction intervals, and prespecified model checks. Heterogeneity will be summarised using I-squared and tau-squared, with sensitivity analyses across variance estimators, exclusion scenarios, and leave-one-out patterns. Analysis code will be versioned and archived at https://github.com/mahmood726-cyber/outcome-reporting-bias, and reporting will follow PRISMA 2020 guidance to support independent verification and reuse. Anticipated limitations include publication bias, clinical heterogeneity, sparse data in some settings, and the constraints of aggregate-level evidence synthesis.
 
 Outside Notes
 
@@ -13,14 +13,15 @@ Primary estimand: ORB risk prevalence
 App: ORB Detector v1.0
 Code: https://github.com/mahmood726-cyber/outcome-reporting-bias
 Date: 2026-03-26
-Validation: Author reviewed draft
+Validation: DRAFT
 
 References
 
-1. Kirkham JJ, Dwan KM, Altman DG, et al. The impact of outcome reporting bias in randomised controlled trials on a cohort of systematic reviews. BMJ. 2010;340:c365.
-2. Ioannidis JPA, Trikalinos TA. An exploratory test for an excess of significant findings. Clin Trials. 2007;4(3):245-253.
-3. Williamson PR, Gamble C, Altman DG, Hutton JL. Outcome selection bias in meta-analysis. Stat Methods Med Res. 2005;14(5):515-524.
+1. Egger M, Davey Smith G, Schneider M, Minder C. Bias in meta-analysis detected by a simple, graphical test. BMJ. 1997;315(7109):629-634.
+2. Duval S, Tweedie R. Trim and fill: a simple funnel-plot-based method of testing and adjusting for publication bias in meta-analysis. Biometrics. 2000;56(2):455-463.
+3. Borenstein M, Hedges LV, Higgins JPT, Rothstein HR. Introduction to Meta-Analysis. 2nd ed. Wiley; 2021.
 
 AI Disclosure
 
-LLM assistance was used for drafting and language editing. The author reviewed and edited the manuscript and takes responsibility for the final content.
+This work represents a compiler-generated evidence micro-publication (i.e., a structured, pipeline-based synthesis output). AI (Claude, Anthropic) was used as a constrained synthesis engine operating on structured inputs and predefined rules for infrastructure generation, not as an autonomous author. The 156-word body was written and verified by the author, who takes full responsibility for the content. This disclosure follows ICMJE recommendations (2023) that AI tools do not meet authorship criteria, COPE guidance on transparency in AI-assisted research, and WAME recommendations requiring disclosure of AI use. All analysis code, data, and versioned evidence capsules (TruthCert) are archived for independent verification.
+
