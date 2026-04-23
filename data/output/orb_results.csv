@@ -1,9 +1,15 @@
 review_id,analysis_name,k,I2,tau2,n_sig_observed,n_sig_expected,excess_significance,outlier_ratio,se_ratio,orb_score,orb_class
 CD000028,Cause of cardiovascular mortality,21,0,0,3,3.6,-0.57,0.0,8.54,10,Low_Risk
 CD000143,Extubation failure,12,70.0,0.3053,4,2.1,1.9,0.0,7.66,40,Moderate_Risk
+CD000214,Smoking abstinence at longest follow-up,17,45.8,0.0716,4,3.0,1.02,0.059,13.98,35,Moderate_Risk
 CD000219,Pain,21,35.7,0.0264,6,4.1,1.94,0.048,15.18,35,Moderate_Risk
+CD000247,Persisting symptoms 1 to 7 days,6,46.2,0.0558,1,1.0,0.01,0.0,7.45,10,Low_Risk
+CD000402,Endometrial hyperplasia at 1 year,16,53.5,0.3564,14,13.4,0.58,0.0,5.39,25,Moderate_Risk
 CD000478,Failure to maintain remission - all trials,13,0,0,4,3.0,0.97,0.0,7.76,10,Low_Risk
+CD000512,Individual components of neurodevelopmental outcome in survivors at 18 to 26 months postmenstrual age (trials adjusted for chronologic age and critical illness),15,0,0,1,0.6,0.38,0.0,18.03,20,Low_Risk
 CD000547,Individual adverse events,48,70.7,0.7851,14,18.5,-4.48,0.021,6.7,25,Moderate_Risk
+CD001059,Pre-eclampsia,5,37.7,0.0211,1,1.0,0.01,0.0,14.52,20,Low_Risk
+CD001125,Side effects,6,1.1,0.0153,0,0.4,-0.4,0.0,2.44,0,Low_Risk
 CD001155,"Alendronate vs Other active agent, Secondary",59,40.5,0.1319,8,2.8,5.2,0.034,9.92,40,Moderate_Risk
 CD001321,Symptomatic UTI: culture-verified UTI,27,66.2,0.1057,7,6.9,0.08,0.0,25.92,35,Moderate_Risk
 CD001396,Response rates,30,28.4,0.0676,17,15.5,1.52,0.067,4.96,15,Low_Risk
@@ -15,19 +21,24 @@ CD001797,Significant improvement in disability within 6 weeks,5,0,0,3,2.0,1.02,0
 CD001837,Quit at longest follow-up (6 + months),49,45.7,0.0328,13,11.5,1.5,0.041,9.92,25,Moderate_Risk
 CD001909,≥ 50% reduction in seizure frequency (intention-to-treat analysis),25,0,0,5,6.7,-1.68,0.0,7.0,10,Low_Risk
 CD001920,Functional task training compared to other approaches: Adverse events,4,0,0,0,0.3,-0.31,0.0,7.87,10,Low_Risk
+CD001939,Hepatic encephalopathy,18,48.9,0.0571,4,3.3,0.74,0.111,8.02,20,Low_Risk
 CD002042,Participants exposed to blood transfusion by clinical specialties,53,96.3,0.1024,43,46.9,-3.92,0.075,16.57,50,High_Risk
 CD002052,All‐cause mortality until hospital discharge,3,0,0,0,0.2,-0.17,0.0,2.73,0,Low_Risk
 CD002112,Number of children achieving 14 consecutive dry nights by the end of treatment,21,42.2,0.0275,8,5.9,2.14,0.048,16.59,50,High_Risk
 CD002115,Number of participants with self-reported improvement in constipation (dichotomous),5,74.8,0.2031,5,3.2,1.78,0.0,8.06,40,Moderate_Risk
+CD002118,Clinical pregnancy rate,36,51.8,0.0839,12,5.1,6.88,0.083,10.5,65,High_Risk
 CD002122,Adverse effects,56,82.0,0.3445,19,6.1,12.87,0.125,24.21,90,High_Risk
 CD002203,Adverse effects of antibiotic treatment,50,38.8,0.104,7,2.5,4.52,0.06,6.29,40,Moderate_Risk
 CD002243,28-day all-cause mortality - sensitivity analysis based on methodological quality,180,25.8,0.0111,18,13.8,4.23,0.1,33.87,50,High_Risk
 CD002290,Relapse,16,81.4,0.1187,10,9.9,0.12,0.0,6.93,40,Moderate_Risk
 CD002303,Reulceration,5,57.2,0.0268,3,3.5,-0.5,0.0,8.11,25,Moderate_Risk
+CD002769,Quality of life&nbsp;,8,0,0,0,0.5,-0.45,0.0,3.44,0,Low_Risk
 CD002971,Necrotising enterocolitis,10,2.9,0.0126,2,1.6,0.37,0.0,4.95,0,Low_Risk
+CD002974,Failed therapy on assigned mode of ventilation at any time point&nbsp;,3,73.1,0.2971,0,0.3,-0.3,0.0,6.63,25,Moderate_Risk
 CD003129,Treatment response,3,0,0,1,1.3,-0.28,0.0,1.86,0,Low_Risk
 CD003216,Incidence of pressure ulcers,4,4.2,0.0083,0,0.4,-0.45,0.0,8.82,10,Low_Risk
 CD003218,Proportion of participants with at least 1 adverse event,5,0,0,0,0.4,-0.4,0.0,2.67,0,Low_Risk
+CD003308,Adverse effects of phototherapy,12,38.7,0.2173,1,0.6,0.42,0.083,6.87,10,Low_Risk
 CD003331,All-cause mortality up to 12 months' follow-up,35,0,0,0,1.1,-1.06,0.0,5.16,10,Low_Risk
 CD003333,All-cause mortality,4,0,0,0,0.1,-0.11,0.0,5.47,10,Low_Risk
 CD003357,Live birth rate per woman,7,66.9,0.2212,2,2.8,-0.83,0.0,2.53,15,Low_Risk
@@ -43,8 +54,10 @@ CD003743,Infection up to discharge from home support or hospital,6,0,0,1,1.8,-0.
 CD003774,CMV disease,42,0,0,17,16.8,0.21,0.0,6.25,10,Low_Risk
 CD003833,Vascular events,4,0,0,0,0.2,-0.19,0.0,1.88,0,Low_Risk
 CD003962,Adverse events,6,0.1,0.0002,0,0.5,-0.45,0.0,7.36,10,Low_Risk
+CD004143,Breast cancer: combined continuous HT,14,38.1,0.0104,5,3.1,1.89,0.071,26.76,35,Moderate_Risk
 CD004184,Overall adverse events,7,35.9,0.0397,1,0.5,0.49,0.143,13.17,30,Moderate_Risk
 CD004307,Smoking cessation (subgrouped by when incentives were provided),42,22.5,0.0343,10,8.5,1.53,0.048,15.64,35,Moderate_Risk
+CD004366,Completed intervention or control,51,0,0,1,1.3,-0.3,0.0,14.78,20,Low_Risk
 CD004376,Study withdrawals at final follow-up,104,0,0,2,2.9,-0.9,0.0,9.87,10,Low_Risk
 CD004406,Resolution of symptoms post-treatment (ITT analysis),6,0,0,0,0.4,-0.39,0.0,1.92,0,Low_Risk
 CD004417,Antibiotic use: delayed versus immediate antibiotics,17,84.2,0.9622,17,16.3,0.75,0.0,4.61,30,Moderate_Risk
@@ -62,6 +75,7 @@ CD004992,Recurrence of pelvic pain,4,8.7,0.038,4,3.1,0.94,0.0,2.11,0,Low_Risk
 CD005133,Adverse events,39,7.4,0.0067,3,2.0,0.96,0.051,19.11,20,Low_Risk
 CD005187,Death from any cause,5,17.5,0.0045,4,3.3,0.73,0.0,2.31,0,Low_Risk
 CD005343,Surgically-related adverse effects (G3+),31,57.0,0.1491,9,6.4,2.56,0.065,22.29,65,High_Risk
+CD005470,Tailored strategy vs no strategy (min),24,83.0,0.0679,8,10.5,-2.55,0.0,15.92,50,High_Risk
 CD005495,Rate of cerebral palsy,9,0,0,0,0.4,-0.35,0.0,3.18,0,Low_Risk
 CD005566,Infectious complications,28,0,0,1,2.5,-1.48,0.0,26.91,20,Low_Risk
 CD005582,Serious adverse events,4,0,0,0,0.2,-0.24,0.0,1.88,0,Low_Risk
@@ -74,15 +88,20 @@ CD006140,Acceptability,8,85.4,0.0204,5,4.4,0.61,0.125,52.32,60,High_Risk
 CD006182,Subsequent laparotomy during initial hospitalisation,4,0,0,3,2.4,0.61,0.0,4.27,0,Low_Risk
 CD006185,Regaining independent walking ability,78,28.7,0.1663,10,10.2,-0.2,0.0,4.75,0,Low_Risk
 CD006257,Death: any cause,9,22.6,0.0216,0,0.6,-0.56,0.0,22.39,20,Low_Risk
+CD006268,Hypoxia,22,49.7,0.6846,3,1.1,1.92,0.136,3.77,25,Moderate_Risk
 CD006404,Other adverse events,112,27.5,0.0422,9,3.4,5.59,0.054,15.91,50,High_Risk
+CD006448,Fatigue,8,26.3,0.0287,1,1.2,-0.21,0.125,4.38,10,Low_Risk
 CD006475,Sensitivity analysis: eczema by 2 years by definition of allergic disease,27,32.4,0.0271,5,2.5,2.48,0.037,19.5,50,High_Risk
 CD006515,Mechanical complications,5,0,0,0,0.2,-0.21,0.0,2.06,0,Low_Risk
 CD006536,All-cause mortality,43,0,0,1,1.5,-0.48,0.0,3.74,0,Low_Risk
+CD006589,All-cause mortality,11,0,0,0,0.4,-0.43,0.0,3.91,0,Low_Risk
 CD006606,"Clinical pregnancy – all studies (odds ratio, random-effects)",4,89.1,0.9385,1,0.1,0.9,0.0,6.05,40,Moderate_Risk
 CD006632,Length of hospital stay (days),23,62.5,0.4923,13,7.9,5.13,0.13,19.89,75,High_Risk
+CD006680,Initial technical failure rates,9,64.3,0.6718,3,1.3,1.71,0.0,3.79,30,Moderate_Risk
 CD006689,Maternal peripheral parasitaemia at delivery (amplification techniques),5,0,0,1,0.8,0.21,0.0,2.5,0,Low_Risk
 CD006712,Pain with aspiration,3,0,0,0,0.4,-0.37,0.0,2.15,0,Low_Risk
 CD006714,Abortion completed with intended method (defined as fetal expulsion),3,0,0,0,0.1,-0.08,0.0,10.72,20,Low_Risk
+CD006742,All-Cause Mortality,4,0,0,0,0.3,-0.31,0.0,9.0,10,Low_Risk
 CD006742,All-Cause Mortality,4,0,0,0,0.3,-0.31,0.0,9.0,10,Low_Risk
 CD006839,Proportion of participants with clinical improvement in function compared to baseline,3,0,0,0,0.2,-0.21,0.0,2.1,0,Low_Risk
 CD006913,"Number of patients completing program - psychotherapy vs any control, all populations",29,70.7,0.0073,4,5.1,-1.1,0.069,16.72,35,Moderate_Risk
@@ -93,6 +112,7 @@ CD007024,Individual adverse events,18,0,0,1,1.1,-0.1,0.0,10.11,20,Low_Risk
 CD007026,All-cause death,7,0,0,0,0.2,-0.22,0.0,5.95,10,Low_Risk
 CD007079,Preterm birth < 37 weeks' gestation,10,55.9,0.0426,3,2.4,0.58,0.0,22.2,35,Moderate_Risk
 CD007130,Completers,26,47.5,0.0035,3,2.2,0.76,0.115,21.03,30,Moderate_Risk
+CD007131,Enrolment,31,70.3,0.0158,10,10.8,-0.83,0.129,18.51,45,Moderate_Risk
 CD007156,Difficulty in swallowing,3,0,0,2,1.5,0.48,0.0,3.7,0,Low_Risk
 CD007310,Complications,7,0,0,0,0.3,-0.3,0.0,2.17,0,Low_Risk
 CD007374,Death,6,0,0,0,0.2,-0.23,0.0,2.24,0,Low_Risk
@@ -101,13 +121,16 @@ CD007569,Return to work,6,11.9,0.0031,0,0.5,-0.54,0.0,5.25,10,Low_Risk
 CD007572,Failure to induce clinical remission (6 to 12 weeks),10,64.5,0.0075,6,5.8,0.2,0.1,4.43,15,Low_Risk
 CD007639,Adverse events,5,69.4,0.1657,2,0.2,1.84,0.0,2.72,30,Moderate_Risk
 CD007674,Clinical recovery or improvement - best and worst case scenario,28,78.7,0.2472,13,8.6,4.36,0.071,11.65,80,High_Risk
+CD007689,Adverse events,9,0,0,0,0.3,-0.32,0.0,1.35,0,Low_Risk
 CD007784,Major cardiovascular events,13,38.9,0.0072,10,6.5,3.49,0.0,36.25,50,High_Risk
+CD007798,Thrombophlebitis,14,63.6,0.0974,3,3.0,-0.02,0.071,11.44,35,Moderate_Risk
 CD007809,Number of participants reporting an adverse event,3,0,0,0,0.2,-0.24,0.0,1.32,0,Low_Risk
 CD007859,Pain (analgesic consumption),3,48.0,0.0782,0,0.3,-0.28,0.0,1.69,0,Low_Risk
 CD007872,Estimated blood loss ≥ 500 mL,3,22.7,0.0038,0,0.4,-0.4,0.0,2.53,0,Low_Risk
 CD007895,Withdrawals due to adverse effects,3,0,0,0,0.1,-0.11,0.0,1.62,0,Low_Risk
 CD007896,Withdrawals due to adverse effects,35,0,0,8,7.2,0.77,0.0,4.85,0,Low_Risk
 CD008063,Extent of substance use,50,35.2,0.0129,10,10.6,-0.57,0.06,6.67,10,Low_Risk
+CD008112,Perceived recovery,19,33.2,0.018,4,1.4,2.59,0.105,4.68,40,Moderate_Risk
 CD008145,Reception of DTP3 by 1 year of age,6,89.4,0.0359,6,5.0,1.03,0.0,12.72,65,High_Risk
 CD008165,Proportion of patients with one or more potentially inappropriate medication,13,83.6,0.0785,6,4.7,1.34,0.077,11.77,65,High_Risk
 CD008176,Death (any cause),38,0,0,0,1.1,-1.14,0.0,11.97,20,Low_Risk
@@ -118,6 +141,7 @@ CD008469,Exacerbations leading to emergency department (ED) visits: subgrouped b
 CD008493,Atrial fibrillation,10,53.4,0.0299,2,1.0,1.03,0.0,22.71,50,High_Risk
 CD008552,Vegetable intake,5,63.6,0.2673,1,0.5,0.47,0.0,5.66,25,Moderate_Risk
 CD008564,Total mortality,12,0.7,0.0007,1,0.6,0.35,0.0,2.97,0,Low_Risk
+CD008576,Preterm birth,10,18.1,0.0956,1,0.6,0.4,0.0,3.96,0,Low_Risk
 CD008628,"Function in the long term; number of people with scores of excellent, good, or satisfactory/fair",9,0,0,0,0.4,-0.43,0.0,4.19,0,Low_Risk
 CD008688,Pancreatic fistula (free definition),3,0,0,0,0.1,-0.13,0.0,6.42,10,Low_Risk
 CD008709,Urinary retention,31,0,0,0,1.8,-1.77,0.0,2.99,0,Low_Risk
@@ -126,6 +150,7 @@ CD008879,Non-infectious complications,8,0,0,1,0.8,0.19,0.0,5.06,10,Low_Risk
 CD008940,Participants experiencing severe adverse events,4,0,0,0,0.1,-0.1,0.0,1.42,0,Low_Risk
 CD009022,Conversion to laparoscopic (use of more than one additional port)/open surgery (rate),9,0,0,1,1.3,-0.32,0.0,2.39,0,Low_Risk
 CD009102,Intubation and mechanical ventilation in DR,5,57.1,0.1144,1,1.4,-0.41,0.2,9.67,35,Moderate_Risk
+CD009106,Neonatal mortality in the first 24 hours of life,6,82.2,0.1687,3,3.3,-0.26,0.0,4.92,30,Moderate_Risk
 CD009235,Mortality,31,0,0,0,1.1,-1.09,0.0,10.23,20,Low_Risk
 CD009252,Subjective symptom of cure or improvement,14,42.3,0.1747,3,0.8,2.24,0.071,8.57,40,Moderate_Risk
 CD009298,Operative delivery (Subgroup analysis: nulliparous versus multiparous),11,9.7,0.0046,1,0.5,0.46,0.0,9.88,10,Low_Risk
@@ -139,10 +164,12 @@ CD009679,Complications,24,50.8,0.4996,1,0.7,0.35,0.0,8.26,25,Moderate_Risk
 CD009730,Adverse effects,10,8.4,0.1151,0,0.3,-0.27,0.0,2.88,0,Low_Risk
 CD009749,Sensitivity analyses ,25,0,0,1,0.8,0.21,0.0,8.02,10,Low_Risk
 CD009788,Leaving the study early,5,6.0,0.0116,1,1.1,-0.13,0.0,6.68,10,Low_Risk
+CD009885,Digestive system,122,33.3,0.2063,19,17.5,1.47,0.049,9.2,25,Moderate_Risk
 CD009945,50% responder,3,0,0,0,0.7,-0.74,0.0,2.21,0,Low_Risk
 CD010001,Clinical pregnancy,25,21.3,0.0295,7,5.0,1.99,0.0,5.85,25,Moderate_Risk
 CD010145,(Additional table) CR until progression of the disease,9,0,0,0,1.6,-1.6,0.0,3.1,0,Low_Risk
 CD010189,Overall survival,6,33.7,0.0237,1,0.4,0.59,0.0,4.08,0,Low_Risk
+CD010216,Serious adverse events,7,0,0,0,0.2,-0.25,0.0,6.22,10,Low_Risk
 CD010216,Serious adverse events,7,0,0,0,0.2,-0.25,0.0,6.22,10,Low_Risk
 CD010290,Incidence of OHSS per woman by urinary gonadotropins,7,0,0,0,0.5,-0.45,0.0,2.64,0,Low_Risk
 CD010441,Incidence of perineal trauma (tears or episiotomy or both),3,0,0,0,0.4,-0.36,0.0,2.27,0,Low_Risk
@@ -159,6 +186,7 @@ CD011204,Proportion of all-cause discontinuations at 6 months,13,68.4,0.0895,5,6
 CD011305,All-cause mortality at 31 to 100 days,3,1.4,0.0208,0,0.1,-0.08,0.0,1.76,0,Low_Risk
 CD011330,Withdrawal due to adverse events,4,0,0,0,0.6,-0.56,0.0,1.15,0,Low_Risk
 CD011381,Number of patients who discontinued treatment due to adverse effects,46,68.4,0.2234,12,3.9,8.08,0.043,11.44,65,High_Risk
+CD011506,All-cause mortality prior to discharge,4,40.9,0.069,0,0.7,-0.66,0.0,15.32,20,Low_Risk
 CD011535,Anti-IL17 versus placebo,38,29.2,0.2172,35,31.4,3.61,0.026,4.53,30,Moderate_Risk
 CD011575,All-cause mortality,4,73.2,0.1037,1,0.4,0.63,0.0,1.7,15,Low_Risk
 CD011600,Pneumonia,5,0,0,2,2.6,-0.56,0.0,3.62,0,Low_Risk
@@ -172,13 +200,16 @@ CD011778,PPD (change from baseline (mm)); 3 months,38,97.4,0.1838,22,27.6,-5.57,
 CD011793,Re-exploration,13,0,0,0,0.4,-0.43,0.0,2.17,0,Low_Risk
 CD011841,Recurrence of central serous chorioretinopathy at 12 months (± 6),4,8.6,0.0239,0,0.2,-0.19,0.0,4.44,0,Low_Risk
 CD011851,Fatal cardiovascular events,4,0,0,0,0.2,-0.19,0.0,5.02,10,Low_Risk
+CD011852,Recovery,3,0,0,0,0.5,-0.51,0.0,1.23,0,Low_Risk
 CD011858,Extracorporeal circuit thrombosis,3,5.7,0.0895,0,0.2,-0.19,0.0,2.33,0,Low_Risk
 CD011866,Dropouts,28,25.5,0.0154,4,4.2,-0.16,0.036,16.13,20,Low_Risk
 CD011885,"Clinically relevant response, as defined by study authors",7,42.6,0.1411,2,0.6,1.4,0.0,8.79,25,Moderate_Risk
+CD012049,Self-reported measures of oral health-related behaviours (dichotomous measures),3,80.2,0.0744,2,0.6,1.38,0.0,1.54,45,Moderate_Risk
 CD012067,Adverse events,38,94.0,1.0609,13,16.1,-3.09,0.132,15.24,60,High_Risk
 CD012079,Repeat surgery (0.5 to 7 years) including trials at high risk of bias,52,48.9,0.7012,6,3.9,2.15,0.019,4.63,30,Moderate_Risk
 CD012170,Weight,8,93.9,14.5461,4,3.2,0.82,0.0,28.75,50,High_Risk
 CD012178,Incidence of NEC,5,0,0,0,0.2,-0.16,0.0,2.46,0,Low_Risk
+CD012182,Withdrawals due to adverse events,3,0,0,3,2.8,0.21,0.0,1.98,0,Low_Risk
 CD012186,Withdrawals due to AEs,105,58.1,0.1822,24,12.2,11.79,0.057,15.83,65,High_Risk
 CD012214,"Regression of endometrial hyperplasia (with or without atypia) to proliferative, secretory or atrophic endometrium",4,0,0,2,1.4,0.59,0.0,2.48,0,Low_Risk
 CD012268,Body weight,21,45.7,0.1552,1,1.5,-0.47,0.0,100.6,20,Low_Risk
@@ -190,12 +221,14 @@ CD012503,Recurrence of ischemic stroke at the endpoint (for all studies),17,0.8,
 CD012570,Adverse events,10,0,0,0,0.3,-0.28,0.0,10.81,20,Low_Risk
 CD012572,All-cause mortality,4,0,0,0,0.4,-0.44,0.0,3.09,0,Low_Risk
 CD012586,Live birth or ongoing pregnancy,42,0,0,2,1.9,0.09,0.0,15.15,20,Low_Risk
+CD012589,Radiographic lower limb alignment measured by outliers in FTCA,27,48.7,0.1712,4,1.4,2.58,0.0,5.66,40,Moderate_Risk
 CD012623,Macular hole closure ,9,25.9,0.0024,3,1.0,2.02,0.0,9.65,40,Moderate_Risk
 CD012635,All-cause mortality at 30 days,6,28.0,0.0169,0,0.2,-0.21,0.0,8.67,10,Low_Risk
 CD012642,Hypernatraemia (≥ 150 mmol/L),4,0,0,0,0.4,-0.44,0.0,5.94,10,Low_Risk
 CD012693,Cycle cancellations for poor response,8,28.7,0.1469,2,2.2,-0.15,0.0,4.79,0,Low_Risk
 CD012712,Endotracheal reintubation,20,0,0,17,10.8,6.19,0.0,5.19,40,Moderate_Risk
 CD012718,Caries arrest (at end of study follow-up),5,83.6,0.0559,4,4.9,-0.89,0.0,1.64,30,Moderate_Risk
+CD012734,Non-serious adverse events,4,16.4,0.1175,1,1.0,0.03,0.0,5.7,10,Low_Risk
 CD012757,Mortality at longest follow-up,3,0,0,2,1.3,0.65,0.0,2.8,0,Low_Risk
 CD012850,Frequency of joint noise,5,9.5,0.0069,0,0.2,-0.18,0.0,4.84,0,Low_Risk
 CD012891,Ovarian insufficiency grouped by strict or broad definition,13,74.9,0.2034,7,6.1,0.91,0.0,16.11,35,Moderate_Risk
@@ -214,6 +247,7 @@ CD013056,Resolution of ear discharge (1–2 weeks),4,81.4,0.0526,2,2.8,-0.78,0.2
 CD013059,Treatment non-acceptability,5,0,0,0,0.9,-0.87,0.0,2.08,0,Low_Risk
 CD013071,Treatment withdrawal due to adverse events,16,0,0,0,1.0,-0.95,0.0,4.74,0,Low_Risk
 CD013105,Bladder function ,5,49.3,0.4552,1,1.2,-0.2,0.0,4.87,0,Low_Risk
+CD013108,One type of POP surgery vs another: anterior vaginal mesh vs anterior vaginal native tissue repair,20,80.5,0.5827,6,3.9,2.05,0.0,10.63,80,High_Risk
 CD013197,Serious adverse events (sensitivity analysis),64,69.2,1.2938,11,2.4,8.57,0.0,5.69,55,High_Risk
 CD013232,Adverse effects: neurological,121,0,0,0,3.3,-3.29,0.0,6.1,10,Low_Risk
 CD013255,Sinus rhythm until hospital discharge or end of study follow-up (paroxysmal AF),9,80.6,0.1356,9,8.0,1.05,0.0,3.54,45,Moderate_Risk
@@ -239,6 +273,7 @@ CD013462,Rate of postoperative pancreatic fistula (grade B or C defined accordin
 CD013474,Treatment discontinuation,6,64.0,0.0504,2,0.4,1.59,0.0,11.8,50,High_Risk
 CD013476,Significant adverse events during maintenance therapy up to 6 months follow-up,3,0,0,0,0.4,-0.41,0.0,1.12,0,Low_Risk
 CD013508,MACE,4,33.9,0.1543,0,0.2,-0.24,0.0,3.4,0,Low_Risk
+CD013524,N° of participants with at least one serious adverse event at the end of follow-up,8,8.2,0.0127,1,0.3,0.71,0.125,4.75,10,Low_Risk
 CD013539,Antidrug antibodies,29,0,0,0,0.7,-0.73,0.0,14.6,20,Low_Risk
 CD013541,Leaving the study early (> 12 months postintervention),8,0,0,0,0.4,-0.36,0.0,3.09,0,Low_Risk
 CD013561,Adverse events,5,36.6,0.1155,1,0.4,0.64,0.0,2.75,0,Low_Risk
@@ -248,9 +283,13 @@ CD013591,Physical activity (other measures),13,91.0,15.7784,2,4.9,-2.92,0.077,32
 CD013595,On-study mortality,3,0,0,2,1.8,0.19,0.0,4.43,0,Low_Risk
 CD013613,Dropout for any reason at study endpoint,3,0,0,0,0.1,-0.11,0.0,3.72,0,Low_Risk
 CD013614,Clinical improvement as measured by ACR20 response criteria or by the EULAR moderate response criteria or by PsARC criteria at 12 weeks,15,80.0,0.1341,14,13.2,0.78,0.0,9.13,40,Moderate_Risk
+CD013616,Patient safety events,27,9.1,0.0048,3,1.5,1.49,0.037,25.73,35,Moderate_Risk
+CD013617,Cardiorespiratory fitness,37,78.1,5.4846,12,7.2,4.77,0.0,14.39,80,High_Risk
 CD013631,Adverse events: any adverse event,3,42.1,0.1854,0,0.4,-0.44,0.0,4.25,0,Low_Risk
 CD013643,"Number of minor adverse events (Clavien-Dindo I, II), short term (< 1 year) ",6,57.5,0.5311,3,2.7,0.32,0.0,5.86,25,Moderate_Risk
+CD013661,Adverse events: all,9,0,0,0,0.8,-0.79,0.0,30.61,20,Low_Risk
 CD013672,Treatment retention,7,68.7,0.0265,1,1.9,-0.91,0.0,6.35,25,Moderate_Risk
+CD013695,Globe salvage (overall) at end of medium-term follow-up,3,1.0,0.0001,0,0.3,-0.29,0.0,1.93,0,Low_Risk
 CD013715,Sensitivity analysis: pedACR70 at the latest time point,7,55.1,0.126,2,2.7,-0.71,0.0,5.8,25,Moderate_Risk
 CD013719,Sensitivity analysis. Oral small molecule inhibitors: baricitinib vs placebo,4,79.9,0.3246,4,3.2,0.79,0.0,3.87,30,Moderate_Risk
 CD013726,Adverse events,12,69.0,0.5466,2,0.7,1.35,0.083,5.66,40,Moderate_Risk
@@ -277,9 +316,13 @@ CD013875,Clinical pregnancy – all studies,9,24.0,0.0833,3,3.1,-0.09,0.0,2.18,0
 CD014040,Fertilization rate ,14,76.5,0.0135,6,5.8,0.2,0.143,50.48,60,High_Risk
 CD014089,Adverse effects,6,0,0,0,0.8,-0.83,0.0,2.94,0,Low_Risk
 CD014145,Failed apnea reduction after 2 to 7 days,6,22.0,0.2127,0,0.4,-0.38,0.0,3.2,0,Low_Risk
+CD014217,&nbsp;Outcome 1: Parasite clearance on day 3,9,49.1,0.0041,5,3.6,1.38,0.111,4.65,25,Moderate_Risk
 CD014300,Acceptability at study endpoint: children,9,83.0,0.2909,3,0.5,2.5,0.111,15.85,90,High_Risk
+CD014353,All‐cause mortality up to hospital discharge and the first year of life,9,0,0,0,0.5,-0.47,0.0,7.76,10,Low_Risk
 CD014428,Pain intensity,6,89.8,36.1601,4,4.9,-0.93,0.0,11.72,50,High_Risk
+CD014532,Average endpoint score on a psychosocial well-being scale in the short term (≤ 3 months) - REML + HSJK,3,0,0,3,2.9,0.05,0.0,1.58,0,Low_Risk
 CD014541,Major bleeding: short-term (45 days or fewer),5,22.6,0.0377,2,2.5,-0.54,0.0,1.63,0,Low_Risk
+CD014544,Adverse events,12,26.6,0.0768,0,0.3,-0.3,0.0,6.38,10,Low_Risk
 CD014544,Adverse events,12,26.6,0.0768,0,0.3,-0.3,0.0,6.38,10,Low_Risk
 CD014585,Adverse events,12,71.5,0.0188,4,1.2,2.81,0.083,29.64,65,High_Risk
 CD014594,First-pass success,7,69.4,0.0918,6,6.7,-0.67,0.0,3.1,15,Low_Risk
@@ -297,7 +340,9 @@ CD014762,Adverse events (to day 30 after randomisation),7,46.4,0.0258,1,0.5,0.48
 CD014763,Surgical site infection,9,0,0,8,4.7,3.28,0.0,2.27,30,Moderate_Risk
 CD014769,Any VTE,27,4.4,0.0053,3,1.7,1.29,0.0,15.13,35,Moderate_Risk
 CD014792,Major complications,11,0,0,0,0.7,-0.68,0.0,2.74,0,Low_Risk
+CD014794,Change in height (cm) NRSIs,7,97.0,1.5485,5,5.5,-0.49,0.0,4.92,30,Moderate_Risk
 CD014803,Attrition (dropouts),5,0,0,0,0.2,-0.15,0.0,2.31,0,Low_Risk
+CD014808,"Comparison 1: Colchicine vs comparison, Outcome 1: All-cause mortality",10,15.7,0.0126,1,0.3,0.74,0.0,13.31,20,Low_Risk
 CD014811,All-cause mortality,4,3.9,0.0253,0,0.4,-0.41,0.0,4.51,0,Low_Risk
 CD014820,Acute kidney injury,17,18.1,0.0106,2,0.6,1.44,0.118,19.35,45,Moderate_Risk
 CD014833,Breastfeeding exclusivity short-term 1 to 3 months post-intervention,5,59.8,0.0399,1,1.6,-0.62,0.2,3.69,25,Moderate_Risk
@@ -325,28 +370,36 @@ CD014966,Death,28,91.1,0.0386,14,6.2,7.81,0.179,76.0,90,High_Risk
 CD014967,Mortality before hospital discharge,5,0,0,0,0.4,-0.4,0.0,3.88,0,Low_Risk
 CD015003,Adverse events,10,33.4,0.2923,0,1.9,-1.88,0.0,7.17,10,Low_Risk
 CD015014,Mortality (proportion of residents who died),24,0,0,0,0.8,-0.76,0.0,12.13,20,Low_Risk
+CD015022,Surgical site infection (SSI) rate,9,42.0,0.1118,3,3.2,-0.18,0.0,1.68,0,Low_Risk
 CD015033,Imaging response. No-improvement in steatosis on ultrasound (range from 5 months to 12 months),4,12.9,0.0047,2,0.9,1.14,0.0,2.51,15,Low_Risk
 CD015038,Wound infection,9,16.5,0.3964,2,1.5,0.5,0.0,1.61,0,Low_Risk
 CD015040,Stimulation frequency: low versus high frequency,7,62.8,0.2603,1,1.6,-0.58,0.0,4.14,15,Low_Risk
 CD015042,Number of women who completed treatment,7,0,0,0,0.4,-0.37,0.0,5.13,10,Low_Risk
+CD015063,Bronchopulmonary dysplasia at 36 weeks' postmenstrual age (requiring oxygen or respiratory support at 36 weeks' postmenstrual age),6,0,0,0,0.4,-0.41,0.0,5.28,10,Low_Risk
 CD015064,Pimecrolimus 1% versus vehicle,4,81.0,0.1755,1,2.1,-1.12,0.0,2.64,30,Moderate_Risk
+CD015072,Pathological complete response,10,0,0,2,2.5,-0.48,0.0,16.91,20,Low_Risk
 CD015083,Back-related function,67,59.4,0.0303,18,10.3,7.66,0.06,5.58,55,High_Risk
 CD015087,Nausea and/or vomiting,7,37.9,0.0917,1,1.3,-0.27,0.143,8.67,20,Low_Risk
+CD015092,Adverse events: Serious adverse events - medium term,15,63.8,0.1373,4,0.4,3.6,0.0,10.68,65,High_Risk
 CD015120,Smoking cessation,5,0,0,0,0.2,-0.16,0.0,3.3,0,Low_Risk
 CD015122,Blood transfusion,9,26.1,0.1527,3,2.1,0.94,0.0,2.54,0,Low_Risk
 CD015124,Assessment of prognostic factors around breast cancer diagnosis,8,0,0,3,3.8,-0.78,0.0,2.99,0,Low_Risk
 CD015134,Preterm birth,6,17.3,0.0067,1,0.9,0.12,0.0,13.63,20,Low_Risk
 CD015140,Risk of relapse in drug-off time - fixed-effect model,5,55.3,0.0904,1,0.3,0.73,0.0,6.92,25,Moderate_Risk
 CD015145,Nausea and vomiting,3,0,0,0,0.5,-0.53,0.0,2.97,0,Low_Risk
+CD015151,Death (any cause): subgroup analysis by type of dialysis,26,88.5,0.0333,20,15.0,4.98,0.154,98.35,90,High_Risk
 CD015160,Clinical recurrence or reoperation for recurrence within one year of repair,4,0,0,0,0.7,-0.71,0.0,1.57,0,Low_Risk
+CD015173,Proportion of people with serious adverse events (maximum follow-up between 1 month and 75 months),9,63.7,0.2074,2,2.0,-0.04,0.111,9.01,35,Moderate_Risk
 CD015192,Surgical site infection rate,6,22.5,0.3275,0,0.2,-0.23,0.0,2.04,0,Low_Risk
 CD015213,Recurrence rate,12,0,0,1,2.7,-1.67,0.0,2.12,0,Low_Risk
 CD015215,"Presence/persistence of OME, randomised by child (long-term)",3,0,0,0,0.2,-0.24,0.0,5.54,10,Low_Risk
 CD015219,All adverse events,18,63.8,0.0844,4,3.5,0.49,0.111,8.2,35,Moderate_Risk
 CD015229,Opiate consumption at 3 months,9,39.2,133.9189,4,6.4,-2.39,0.0,112.51,20,Low_Risk
+CD015234,Caesarean section due to any causes,109,21.0,0.012,5,4.0,1.05,0.046,17.35,35,Moderate_Risk
 CD015252,Presence or persistence of OME,7,0,0,0,1.1,-1.05,0.0,9.23,10,Low_Risk
 CD015254,Sensitivity analysis: persistence (short-term) including cases of acute otitis (Mandel 1987),10,63.5,0.0129,6,3.4,2.58,0.1,10.86,65,High_Risk
 CD015255,Persistence of OME (very short-term - up to 6 weeks),7,81.5,0.0806,3,3.0,-0.04,0.0,15.23,50,High_Risk
+CD015266,Serious extracranial hemorrhage,8,28.6,0.0208,5,3.2,1.76,0.125,17.28,45,Moderate_Risk
 CD015284,Seizure freedom,5,70.8,0.1602,3,2.6,0.41,0.0,3.99,15,Low_Risk
 CD015314,Tobacco cessation at longest follow-up,21,68.1,0.1108,10,10.0,0.01,0.048,14.87,35,Moderate_Risk
 CD015326,zBMI (Medium Term),16,17.9,0.0009,4,3.4,0.61,0.062,8.33,10,Low_Risk
@@ -354,15 +407,24 @@ CD015328,BMI short-term,27,71.9,0.0307,7,3.6,3.36,0.074,156.5,65,High_Risk
 CD015330,BMI short term,11,0,0,1,0.4,0.61,0.0,13.82,20,Low_Risk
 CD015331,Leaving the study early - for any reason - overall acceptability (separated time points),48,0,0,3,2.9,0.07,0.0,11.63,20,Low_Risk
 CD015332,Leaving the study early – for any reason – overall acceptability (separated time points),5,0,0,0,0.4,-0.36,0.0,7.95,10,Low_Risk
+CD015338,Activity: FES vs practice of same activity post-intervention,35,7.8,0.0105,4,3.4,0.62,0.0,4.44,0,Low_Risk
 CD015350,Proportion with non-serious or non-severe harms/adverse events,9,58.4,0.6689,2,0.8,1.22,0.111,5.18,50,High_Risk
+CD015363,Anogenital warts (cohort studies; medium/long-term),33,98.5,0.4073,25,29.6,-4.57,0.03,18.93,50,High_Risk
+CD015364,Serious adverse events,37,0,0,2,1.0,0.98,0.0,39.78,20,Low_Risk
+CD015371,Daily functioning - post-intervention,11,58.7,0.1076,5,3.6,1.43,0.091,3.24,30,Moderate_Risk
 CD015373,Tolerability,5,10.9,0.197,0,0.2,-0.19,0.0,1.4,0,Low_Risk
+CD015376,Initial management versus control: short-term follow-up. Outcome: cure,15,58.4,0.3478,8,6.9,1.13,0.067,9.04,40,Moderate_Risk
+CD015381,Serious Adverse Events,5,17.3,0.0266,0,0.3,-0.33,0.0,8.26,10,Low_Risk
 CD015383,Anxiety on STAI-T (scale 20 to 80),5,0,0,2,1.8,0.19,0.0,1.84,0,Low_Risk
 CD015387,All-cause mortality at the end of scheduled follow-up,21,12.6,0.0076,5,3.7,1.33,0.0,18.3,35,Moderate_Risk
 CD015395,Worsening of clinical status at day 28: admission to hospital or death (subgroup analysis based on ethnicity),4,0,0,1,1.7,-0.74,0.0,4.31,0,Low_Risk
 CD015432,Number of children who required rescue medication 2 hours to less than 24 hours postintervention,8,75.0,0.1459,3,0.7,2.26,0.125,10.01,75,High_Risk
+CD015436,Disc haemorrhage,6,0,0,4,3.6,0.43,0.0,2.21,0,Low_Risk
 CD015443,Discontinuations due to adverse events,19,51.4,0.2037,8,6.1,1.95,0.053,7.46,40,Moderate_Risk
 CD015448,Mean change from baseline in symptom scores at 4 weeks,7,29.9,2.8437,0,1.4,-1.38,0.0,40.18,20,Low_Risk
+CD015470,Recurrence,6,0,0,0,0.3,-0.29,0.0,1.63,0,Low_Risk
 CD015476,Adenoma detection rate,15,64.0,0.012,9,6.6,2.41,0.0,13.57,65,High_Risk
+CD015494,Serious adverse events (SAEs),3,88.7,3.6616,1,1.8,-0.77,0.0,3.03,30,Moderate_Risk
 CD015514,Adverse events - outer retinal folds,3,36.8,0.1234,1,0.4,0.65,0.0,1.83,0,Low_Risk
 CD015518,Cancer-related fatigue ≤ 12 weeks,12,77.1,0.1556,2,5.2,-3.19,0.083,1.99,30,Moderate_Risk
 CD015520,CRF ≤ 12 weeks,5,0,0,1,1.3,-0.35,0.0,3.06,0,Low_Risk
@@ -373,10 +435,12 @@ CD015551,Any-grade adverse events (up to 30 days after final dose),3,0,0,0,0.2,-
 CD015573,Complications of treatment,4,0,0,0,0.6,-0.56,0.0,1.84,0,Low_Risk
 CD015584,Placement success,13,42.0,0.0006,3,0.8,2.24,0.154,9.39,50,High_Risk
 CD015588,All-cause death,16,21.2,0.0065,2,2.9,-0.85,0.062,21.95,20,Low_Risk
+CD015610,Weight loss (categorical),8,0,0,0,0.2,-0.24,0.0,4.18,0,Low_Risk
 CD015636,Subgroup investigations – dengue virus (DENV) serotype,5,0,0,5,4.3,0.7,0.0,2.98,0,Low_Risk
 CD015673,Dropouts,14,0,0,0,1.0,-0.97,0.0,13.6,20,Low_Risk
 CD015698,Anastomotic leakage (Subgroup analysis: IPC Types),3,0,0,0,0.2,-0.19,0.0,1.3,0,Low_Risk
 CD015721,Functional independence: mRS score < 3 within 90 days,6,27.6,0.0019,0,0.3,-0.34,0.0,7.71,10,Low_Risk
+CD015723,Corneal re-epithelialization at 1 to 3 months post-intervention&nbsp;,6,79.6,0.2604,4,3.6,0.42,0.0,9.34,40,Moderate_Risk
 CD015746,Acute typhoid fever,6,66.6,0.191,6,5.1,0.87,0.0,6.45,25,Moderate_Risk
 CD015749,Occurrence of adverse events,3,43.3,0.1562,0,0.2,-0.15,0.0,1.06,0,Low_Risk
 CD015751,Participant discontinuation,3,0,0,0,0.2,-0.18,0.0,1.72,0,Low_Risk
@@ -389,9 +453,14 @@ CD015824,Clinical worsening,5,0,0,3,2.3,0.7,0.0,4.9,0,Low_Risk
 CD015830,Duration of delirium,4,28.0,0.1384,2,1.8,0.17,0.0,2.8,0,Low_Risk
 CD015849,All-cause death,7,22.9,0.0071,2,1.5,0.51,0.0,20.5,20,Low_Risk
 CD015854,Serious adverse event,5,0,0,0,0.5,-0.45,0.0,1.5,0,Low_Risk
+CD015859,"Upper extremity (UE) motor function, composite score, comparison between changes from baseline (short-term) with possible outlier",11,90.8,1.1096,7,7.2,-0.19,0.091,3.24,30,Moderate_Risk
 CD015894,Pain assessed with a validated scale for procedural pain in newborns during the procedure,7,62.0,0.1048,4,4.1,-0.14,0.0,1.74,15,Low_Risk
+CD015906,Hypoglycaemia,13,39.0,0.0257,2,1.8,0.25,0.077,18.05,20,Low_Risk
+CD015907,Death (any cause),4,0,0,1,0.8,0.21,0.0,6.12,10,Low_Risk
 CD015932,Rate of pulmonary complications – pneumonia (with RCT),10,94.3,0.0471,8,6.5,1.49,0.1,19.23,65,High_Risk
 CD015968,Waist circumference (cm) - End of study,3,12.9,0.824,0,0.2,-0.22,0.0,1.89,0,Low_Risk
+CD016017,Adverse events: serious adverse events - medium term,19,0,0,0,1.1,-1.13,0.0,10.5,20,Low_Risk
+CD016018,Adverse events: Serious adverse events - medium term,9,0,0,0,0.2,-0.24,0.0,4.06,0,Low_Risk
 CD016031,"Comparison 3: Lateral vs posterior, Outcome 15: Adverse events, implant related (categorical data)",28,0,0,1,1.1,-0.12,0.0,2.8,0,Low_Risk
 CD016064,Adverse events,5,0,0,0,0.3,-0.31,0.0,3.65,0,Low_Risk
 CD016119,Requirement for blood transfusion,16,33.0,0.0973,1,1.6,-0.6,0.0,5.89,10,Low_Risk
@@ -402,3 +471,4 @@ CD016147,Manual removal of the placenta (end of treatment),3,59.8,0.0847,1,0.4,0
 CD016148,2nd degree tears,4,0,0,0,0.2,-0.16,0.0,12.4,20,Low_Risk
 CD016211,Maternal sepsis: subgroup analysis (polypharmacy vs monopharmacy),5,0,0,1,1.4,-0.4,0.0,10.55,20,Low_Risk
 CD016278,Blood transfusion,4,5.8,0.0048,0,0.4,-0.43,0.0,16.28,20,Low_Risk
+CD016347,New HIV infections,3,0,0,3,1.9,1.11,0.0,1.84,15,Low_Risk

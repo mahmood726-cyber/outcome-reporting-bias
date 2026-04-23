@@ -15,6 +15,7 @@ import csv
 import time
 import re
 import math
+import os
 from pathlib import Path
 from collections import Counter
 
@@ -22,8 +23,8 @@ from collections import Counter
 
 from src.loader import load_all_reviews
 
-DEFAULT_PAIRWISE_DIR = r'C:\Models\Pairwise70\data'
-DEFAULT_OUTPUT_DIR = r'C:\OutcomeReportingBias\data\output'
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+DEFAULT_PROJECTS_ROOT = PROJECT_ROOT.parent
 
 
 def analyze_orb_potential(reviews):
@@ -136,20 +137,60 @@ def analyze_orb_potential(reviews):
     return results
 
 
-def run_pipeline(pairwise_dir=DEFAULT_PAIRWISE_DIR, output_dir=DEFAULT_OUTPUT_DIR):
-    output_path = Path(output_dir)
+def resolve_paths(project_root=None, projects_root=None, pairwise_dir=None, output_dir=None):
+    project_root = Path(project_root).resolve() if project_root else PROJECT_ROOT
+    projects_root = Path(projects_root).resolve() if projects_root else project_root.parent
+
+    pairwise_candidates = []
+    if pairwise_dir:
+        pairwise_candidates.append(Path(pairwise_dir).expanduser())
+    env_pairwise = os.getenv('PAIRWISE70_DATA_DIR')
+    if env_pairwise:
+        pairwise_candidates.append(Path(env_pairwise).expanduser())
+    pairwise_candidates.extend([
+        projects_root / 'Models' / 'Pairwise70' / 'data',
+        projects_root / 'Projects' / 'Pairwise70' / 'data',
+    ])
+    resolved_pairwise = next((path.resolve() for path in pairwise_candidates if path.exists()), pairwise_candidates[0].resolve())
+
+    resolved_output = Path(output_dir).resolve() if output_dir else project_root / 'data' / 'output'
+    return {
+        'pairwise_dir': resolved_pairwise,
+        'output_dir': resolved_output,
+    }
+
+
+def run_pipeline(pairwise_dir=None, output_dir=None, project_root=None, projects_root=None):
+    paths = resolve_paths(
+        project_root=project_root,
+        projects_root=projects_root,
+        pairwise_dir=pairwise_dir,
+        output_dir=output_dir,
+    )
+    pairwise_path = paths['pairwise_dir']
+    output_path = paths['output_dir']
     output_path.mkdir(parents=True, exist_ok=True)
 
     print("Outcome Reporting Bias Detection Pipeline")
     print("=" * 42)
 
-    reviews = list(load_all_reviews(pairwise_dir, min_k=3))
+    if not pairwise_path.exists():
+        print(f"ERROR: Pairwise70 data directory not found: {pairwise_path}")
+        return None
+
+    reviews = list(load_all_reviews(pairwise_path, min_k=3))
+    if not reviews:
+        print(f"ERROR: No eligible reviews found in {pairwise_path}")
+        return None
     print(f"  {len(reviews)} reviews loaded")
 
     t0 = time.time()
     results = analyze_orb_potential(reviews)
     elapsed = time.time() - t0
     n = len(results)
+    if n == 0:
+        print("ERROR: No ORB results were produced; aborting export.")
+        return None
     print(f"  {n} reviews analyzed in {elapsed:.1f}s")
 
     # Export
