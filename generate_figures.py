@@ -9,16 +9,17 @@ Produces three figures:
 Saves 300 dpi PNG + PDF to figures/ directory.
 """
 
-import sys
-import io
-import os
 import csv
+import io
 import json
+import os
+import sys
 
 # Windows cp1252 safety
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
 
 import matplotlib
+
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import matplotlib.ticker as ticker

@@ -9,7 +9,7 @@ import pytest
 
 sys.path.insert(0, str(__import__('pathlib').Path(__file__).parent.parent))
 
-from src.pipeline import analyze_orb_potential, run_pipeline, resolve_paths
+from src.pipeline import analyze_orb_potential, resolve_paths, run_pipeline
 
 
 def _synthetic_review():

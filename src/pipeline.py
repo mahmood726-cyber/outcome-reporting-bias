@@ -9,18 +9,15 @@ registered primary outcomes on CT.gov that differ from what was reported?
 Usage: python -m src.pipeline
 """
 
-import sys
-import json
 import csv
-import time
-import re
+import json
 import math
 import os
-from pathlib import Path
+import time
 from collections import Counter
+from pathlib import Path
 
 # We need the Pairwise70 data to get study lists, then cross-reference CT.gov
-
 from src.loader import load_all_reviews
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
