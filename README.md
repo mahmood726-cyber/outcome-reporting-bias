@@ -8,7 +8,7 @@ What is the prevalence of statistical patterns consistent with outcome reporting
 
 ## Run
 
-Open `index.html` (or `index.html`) in any modern browser. No build step.
+Open `index.html` in any modern browser. No build step.
 
 For local development:
 
@@ -23,14 +23,13 @@ python -m http.server 8000
 python -m pytest -q
 ```
 
-The suite under `tests/` includes 1 test file(s).
+The suite under `tests/` includes 2 test files.
 
 ## Repo layout
 
 | Path | Purpose |
 |---|---|
-| `index.html` | the dashboard (main artifact) |
-| `index.html` | landing page |
+| `index.html` | the dashboard / landing page (main artifact) |
 | `tests/` | pytest tests |
 | `e156-submission/` | E156 micro-paper bundle |
 | `E156-PROTOCOL.md` | project metadata (E156 entry #126) |

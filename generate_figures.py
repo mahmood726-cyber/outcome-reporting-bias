@@ -15,8 +15,10 @@ import json
 import os
 import sys
 
-# Windows cp1252 safety
-sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
+# Windows cp1252 safety. Guard against pytest import-time collection: a
+# module-level sys.stdout reassignment corrupts pytest's capture tmpfile state.
+if "pytest" not in sys.modules:
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
 
 import matplotlib
 
